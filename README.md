@@ -12,6 +12,7 @@ Shravan Prakash.
 Track-2: Education Technology
 Problem statement-1: Develop tools that would increase Productivity for students and teachers.
 Our Project Idea: Interactive Online White Board for Doubt Clarification.
+
 Why we chose this topic:
 •	Being students, we personally feel like most of the doubts we asked during our online classes are not answered properly. The major cause of this being the inability of the teacher to understand our doubts as they are unable to visualise it. A simple solution to this would be to provide an easy access virtual white board for the students to express their thoughts in a better way.
 
