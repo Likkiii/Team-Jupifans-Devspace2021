@@ -2,11 +2,11 @@
  EduBoard (Interactive Virtual Board)
 
 Members-
-Shreyas Bhardwaj
-Likhit Ajeesh
-Aryan Khubchandani
-Achinthya Deepak Hiremaglur
-Shravan Prakash
+Shreyas Bhardwaj,
+Likhit Ajeesh,
+Aryan Khubchandani,
+Achinthya Deepak Hiremaglur,
+Shravan Prakash.
 
 
 Track-2: Education Technology
