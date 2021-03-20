@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="spreadsheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Some cool basic Navbar -->
+    <nav class="navbar navbar-primary bg-primary">
+      <a class="navbar-brand text-white" href="#">
+        <img
+          src="http://ees2018.eu/images/image/misc/author.png"
+          width="45"
+          height="45"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        Realtime Multiuser Presentation Platform
+      </a>
+    </nav>
+    <!-- Messages Container -->
+    <div id="messageContainer"></div>
+    <!-- Drawing Board and Send Button -->
+    <div id="sendMessageBoardDiv">
+      <div id="sendMessageBoard" class="w-75"></div>
+    </div>
+    <input id="name" />
+    <button id="sendDWGbtn" class="btn btn-primary border-round w-25">
+      Present
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="./drawingboard.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
