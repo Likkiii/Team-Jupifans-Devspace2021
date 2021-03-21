@@ -1,5 +1,5 @@
 # Team-Jupifans-Devspace2021
- EduBoard (Interactive Virtual Board)
+ EduTablero (Interactive Virtual Board)
 
 Members-
 Shreyas Bhardwaj,
