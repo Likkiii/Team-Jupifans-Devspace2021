@@ -1,0 +1,22 @@
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    width: 80%;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+}

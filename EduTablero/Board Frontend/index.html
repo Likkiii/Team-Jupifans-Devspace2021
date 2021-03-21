@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>EduTablero</h1>
+    <div>
+        <button><input type="image" src="https://www.clipartkey.com/mpngs/m/62-624465_link-select-comments-hand-fingers-together-clipart-hand.png"class="Select"></button>
+    </div>
+    <div><button><input type="image" src="https://img.favpng.com/2/20/24/drawing-painting-brush-clip-art-png-favpng-LZEe3tKjxwfj354pDghBN67hn.jpg"class="Brush"></button>
+        
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn"><input type="image" src="https://static.vecteezy.com/system/resources/thumbnails/001/209/770/small/square.png"class="Colour"></button>
+        <div class="dropcont">
+            <button><input type="image" src="https://static.vecteezy.com/system/resources/thumbnails/001/209/770/small/square.png"class="Colour"></button>
+            <button><input type="image" src="https://clipartart.com/images/blue-square-clipart-2.png"class="Colour"></button>
+            <button><input type="image" src="https://lh3.googleusercontent.com/proxy/_jsoZisxC4fPAECjYBkU_jeALWQ5lrEjxfdLvhFswvC0QbE6QA-q-kUNmxBZ_n5BdfYiBgnIe1T57CzIzd6ls01eRDDLfUP5sw"class="Colour"></button>
+            <button><input type="image" src="https://webstockreview.net/images/square-clipart-green-square-2.png"class="Colour"></button>
+            <button><input type="image" src="https://img.pngio.com/yellow-rounded-square-clip-art-at-clkercom-vector-clip-art-round-square-png-300_300.png"class="Colour"></button>
+            <button><input type="image" src="https://e7.pngegg.com/pngimages/427/767/png-clipart-rectangle-font-apps-icon-template-rectangle-data-thumbnail.png"class="Colour"></button>
+            
+        </div>
+
+       
+    </div>
+    <br>
+    <div class="dropdown">
+        <button class="dropbtn"><input type="image" src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45166/black-circle-emoji-clipart-xl.png"class="Thickness"></button>
+        <div class="dropcont">
+            <button><input type="image"src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45166/black-circle-emoji-clipart-xl.png" class="small"></button>
+            <button><input type="image"src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45166/black-circle-emoji-clipart-xl.png" class="med"></button>
+            <button><input type="image"src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45166/black-circle-emoji-clipart-xl.png" class="large"></button>
+
+
+
+        </div>
+    </div>
+
+<br>
+    <div class="dropdown">
+        
+        <button class="dropbtn"><input type="image"src="https://img.favpng.com/2/23/23/drawing-eraser-computer-icons-clip-art-png-favpng-pGZH92LuY5xne6cKtJfwjjYqB.jpg"class="Eraser"></button>
+        <div class="dropcont">
+            <button><input type="image"src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45166/black-circle-emoji-clipart-xl.png" class="smallinv"></button>
+            <button><input type="image"src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45166/black-circle-emoji-clipart-xl.png" class="medinv"></button>
+            <button><input type="image"src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/45166/black-circle-emoji-clipart-xl.png" class="largeinv"></button>
+
+
+
+        </div>
+        
+    </div>
+    <div>
+        <button><input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Sz_cr9AOy04AqYWtcdngjgbh07aJ-C7mWA&usqp=CAU"class="Fill"></button>
+    </div>
+    <div>
+
+       <button><input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7uZ0gH3qXWV1Hh8gZqhk2JTQAdsMHEx8fybHlGPB1Bn4ctgAnAIaSbwvf9MtNsn92UNs&usqp=CAU"class="Line"></button>
+    </div>
+
+    <div>
+        <button><input type="image"src="https://www.pikpng.com/pngl/m/73-734792_undo-arrow-symbol-comments-circle-clipart.png"class="Undo"></button>
+    </div>
+    <div>
+
+        <button><input type="image"src="https://www.pikpng.com/pngl/m/73-734792_undo-arrow-symbol-comments-circle-clipart.png"class="Redo"></button>
+    </div>
+    
+    
+    
+    
+    <div>
+        <button><input type="image" src="https://www.vippng.com/png/detail/110-1101691_x-mark-transparent-wrong-clipart-black-and-white.png"class="Clear"></button>
+    </div>
+
+
+
+
+
+
+    <button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Text</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+   <div id="board">
+    </div>
+    <div id="board2">
+        <p>Digital Notebook:-</p>
+    </div>
+
+
+
+    
+    
+    
+    
+    
+</body>
+</html>

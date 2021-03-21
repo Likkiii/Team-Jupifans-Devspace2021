@@ -1,0 +1,288 @@
+
+.div{
+    margin: 5px;
+    
+    
+}
+.Eraser{
+
+    display: block;
+    width: 25px;
+    height: 25px;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+}
+    .Colour{
+        display: block;
+        width: 25px;
+        height: 25px;
+        border: 2px solid rgb(19, 13, 13);
+        align-items: center;
+        padding-top: 10px; padding-bottom: 10px;
+        padding-left: 10px; ;padding-right:  10px;
+}
+.Select{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+}
+.Undo{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+}
+.Redo{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    transform: scaleX(-1);
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+    
+
+}
+.Thickness{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+}
+.Line{
+    display: block;
+
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+}
+.Brush{
+    display: block;
+
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    transform: scaleX(-1);
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+}
+.Fill{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    transform: scaleX(-1);
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+}
+.Clear{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    transform: scaleX(-1);
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+}
+
+  
+  .dropdown {
+    position: right;
+    display: inline-block;
+  }
+  
+ 
+  .dropcont {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropcont {display: block;}
+  
+  .small{
+    display: block;
+    width: 17px;
+    height: 17px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 14px; padding-bottom: 14px;
+    padding-left: 14px; ;padding-right:  14px;
+  }
+.med{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+}
+.large{
+    display: block;
+    width: 33px;
+    height: 33px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 6px; padding-bottom: 6px;
+    padding-left: 6px; ;padding-right:  6px;
+}
+.smallinv{
+    display: block;
+    width: 17px;
+    height: 17px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 14px; padding-bottom: 14px;
+    padding-left: 14px; ;padding-right:  14px;
+    filter: invert(70%);
+  }
+.medinv{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 10px; padding-bottom: 10px;
+    padding-left: 10px; ;padding-right:  10px;
+    filter: invert(70%);
+}
+.largeinv{
+    display: block;
+    width: 33px;
+    height: 33px;
+    border: 2px solid rgb(19, 13, 13);
+    align-items: center;
+    padding-top: 6px; padding-bottom: 6px;
+    padding-left: 6px; ;padding-right:  6px;
+    filter: invert(70%);
+}
+h1{
+    
+    text-align: center;
+    font-size:50px;
+    color:blue ;
+    
+}
+
+
+
+
+#board{
+    width: 800px;
+    height: 300px;
+    padding: 10px;
+    border: 5px solid rgb(14, 2, 2);
+    margin: 0;
+    top: 20%;
+    right: 30%;
+    position: absolute;
+    
+}
+#board2{
+    width: 800px;
+    height: 150px;
+    padding: 10px;
+    border: 5px solid rgb(14, 2, 2);
+    margin: 0;
+    top: 70%;
+    right: 30%;
+    position: absolute;
+    
+}
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+textarea{box-sizing: border-box;}
+
+
+.open-button {
+  background-color: rgb(25, 219, 57);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 20px;
+  right: 28px;
+  width: 280px;
+}
+
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: rgb(7, 5, 153);
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+p{
+    font-size: 20px;
+    
+}
