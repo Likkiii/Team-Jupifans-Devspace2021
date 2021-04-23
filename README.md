@@ -1,19 +1,19 @@
 # Team-Jupifans-Devspace2021
 ## EduTablero (Interactive Virtual Board)
 
-<b>Members</b> 
-Shreyas Bhardwaj,
+<b>Members</b>:
+ Shreyas Bhardwaj,
 Likhit Ajeesh,
 Aryan Khubchandani,
 Achinthya Deepak Hiremaglur,
 Shravan Prakash.
 
 <b>Track-2</b>: Education Technology
-Problem statement-1: Develop tools that would increase Productivity for students and teachers.
+Problem statement-1: Develop tools that would increase Productivity for students and teachers.<br>
 <b>Our Project Idea</b>: Interactive Online White Board for Doubt Clarification.
 
 <b>Why we chose this topic</b>:
-•	Being students, we personally feel like most of the doubts we asked during our online classes are not answered properly. The major cause of this being the inability of the teacher to understand our doubts as they are unable to visualise it. A simple solution to this would be to provide an easy access virtual white board for the students to express their thoughts in a better way.
+ Being students, we personally feel like most of the doubts we asked during our online classes are not answered properly. The major cause of this being the inability of the teacher to understand our doubts as they are unable to visualise it. A simple solution to this would be to provide an easy access virtual white board for the students to express their thoughts in a better way.
 
 ## Features:
 1.	White Board can be shared with the help of a link.
